@@ -1,0 +1,202 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #000000
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color: #45567D;
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #45567D;
+    transition: transform 0.3s ease-out;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
+  .main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #45567D;
+}
+
+#Email {
+    font-family: cursive;
+    color: #F0F0F0;
+}
+
+#Email a {
+    font-family: cursive;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+.column :hover {
+    color: aqua;
+}
+
+#Phone {
+    font-family: cursive;
+    color: #F0F0F0;
+}
+
+#Phone:hover{
+    color: aqua;
+}
+
+#GitHub {
+    font-family: cursive;
+    color: #F0F0F0;
+}
+
+#GitHub a {
+    font-family: cursive;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+.spacer {
+    width: 100%;
+    height: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+h2{
+    font-family: cursive;
+}
+
+h3{
+    font-family: cursive;
+}
+
+#unordered-list{
+    list-style-type: square;
+}
+
+#conference-organizers{
+    font-family: cursive;
+}
+
+#reason{
+    font-family: cursive;
+}
+
+.column{
+    font-family: cursive;
+    color: #F0F0F0;
+    width: 300px;
+    float: left;
+
+}
+
+.column a{
+    font-family: cursive;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+.footer{
+    
+    flex-direction: column;
+    background-color: #303841;
+    text-decoration: none;
+    color: #F0F0F0;
+    font-family: cursive;
+    padding: 0 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.navbar {
+    width: 100%;  
+    height: 60px; 
+    background-color: #303841; 
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;  
+    float: left;
+}
+.navbar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        
+    line-height: 80px;    
+}
+
+.spacer2{
+    width: 100%;
+    height: 16px;
+}
+
+
+   
+form {   
+    margin: 0 auto;
+    width: 600px;
+}
+
+#formErrors p {
+    color: red;
+    visibility: hidden;
+}

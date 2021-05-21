@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="JavaScript/JS.js"></script>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="Images/lehman logo.jpg">
+        <a href="index.html">Home</a>
+        <a href="Registration.html">Registration</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+    <div class="spacer">
+        &nbsp;
+    </div>
+    <h1 style="text-align: center;">REGISTRATION FORM</h1>
+    <!-- <form name="RegForm" onsubmit="return validateForm()" method="post">
+        <p>Full Name: <input type="text" 
+                        size="65" name="name" /></p>
+        <br />
+        <p>E-mail Address: <input type="text" 
+                               size="65" name="email" /></p>
+        <br />
+        <p>Password: <input type="text" 
+                            size="65" name="password" /></p>
+        <br />
+        <p>Phone Number: <input type="text" 
+                             size="65" name="phone" /></p>
+        <br />
+  
+        <p>
+            Select Your Country
+            <select type="text" value="" name="subject">
+                <option>United States</option>
+                <option>Dominican Republic</option>
+                <option>Spain</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+            </select>
+        </p>
+        <br />
+        <br />
+        <p>Registration type:</p>
+
+<div>
+  <input type="radio" id="author" name="type" value="author"
+         checked>
+  <label for="author">Author ($400)</label>
+</div>
+
+<div>
+  <input type="radio" id="participant" name="type" value="participant">
+  <label for="author">Participant ($300)</label>
+</div>
+
+<div>
+  <input type="radio" id="student" name="type" value="student">
+  <label for="author">Student ($100)</label>
+</div>
+
+<br/>
+<br/>
+
+<p>Discount Code: <input type="text" 
+    size="65" name="code" /></p>
+
+    <br>
+ 
+            <input type="submit" 
+                   value="Submit"/>
+            <input type="reset" 
+                   value="Reset"/>
+        </p>
+    </form> -->
+
+    <form name="RegForm" onsubmit="return validateForm()">
+        Full Name: <input type="text" name="name">
+        <br>
+        <br>
+        Email: <input type="text" name="email">
+        <br>
+        <br>
+        Password: <input type="text" name="password">
+        <br>
+        <br>
+        Confirmation Password: <input type="text" name="password2">
+        <br>
+        <br>
+        Phone Number: <input type="text" name="phone">
+        <br>
+        <br>
+        Organization: <input type="text" name="organization">
+        <br>
+        <br>
+        <p>
+            Select Your Country
+            <select type="text" value="" name="Country">
+                <option>United States</option>
+                <option>Dominican Republic</option>
+                <option>Spain</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+            </select>
+        </p>
+        <br />
+        <br />
+        <br>
+        <br>
+        Discount Code: <input type="text" name="discount">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+
+        <div id="formErrors">
+            <ul>
+            <p id="nameError">Missing full name.</p>
+            <p id="emailError">Invalid or missing email address.</p>
+            <p id="passwordError1">Password must be between 10 and 20 characters.</p>
+            <p id="passwordError2">Password must contain at least one lowercase
+                character.</p>
+            <p id="passwordError3">Password must contain at least one uppercase
+                character.</p>
+            <p id="passwordError4">Password must contain at least one digit.</p>
+            <p id="passwordError5">Password and confirmation password don’t match.</p>
+            <p id="attendeeError1">Missing attendee organization.</p>
+            <p id="phoneError">Wrong phone number provided.</p>
+        </ul>
+        </div>
+    </form>
+</body>
+
+</html>
